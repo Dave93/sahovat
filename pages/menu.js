@@ -22,25 +22,25 @@ const Index = () => {
                   Главная
                 </li>
               </a>
-              <a href="/#">
+              <a href="/menu">
                 <li className="xl:text-2xl text-xl leading-8 mr-10 text-color-orange relative font-normal cursor-pointer text-hover">
-                  О нас
+                  Меню
                   <hr className="border-4 border-color-orange bg-color-orange w-10 absolute right-0" />
                 </li>
               </a>
-              <a href="/menu">
+              <a href="#">
                 <li className="xl:text-2xl text-xl leading-8 mr-10 text-color-black flex flex-col items-end justify-end font-normal cursor-pointer text-hover">
-                  Меню
-                </li>
-              </a>
-              <a href="/#">
-                <li className="xl:text-2xl text-xl leading-8 mr-10 text-color-black flex flex-col items-end justify-end font-normal cursor-pointer text-hover">
-                  Доставка
+                  О нас
                 </li>
               </a>
               <a href="/contact">
-                <li className="xl:text-2xl text-xl leading-8 text-color-black flex flex-col items-end justify-end font-normal cursor-pointer text-hover">
+                <li className="xl:text-2xl text-xl leading-8 mr-10 text-color-black flex flex-col items-end justify-end font-normal cursor-pointer text-hover">
                   Контакты
+                </li>
+              </a>
+              <a href="#">
+                <li className="xl:text-2xl text-xl leading-8 text-color-black flex flex-col items-end justify-end font-normal cursor-pointer text-hover">
+                  Доставка
                 </li>
               </a>
             </ul>
